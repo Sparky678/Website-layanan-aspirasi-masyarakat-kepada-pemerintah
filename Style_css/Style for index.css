@@ -2,18 +2,97 @@
     margin : 0px;
     padding: 0px;
 }
+/* font-family declaration */
+@font-face{
+    font-family: Arial Rounded MT Bold;
+    src: local('Arial Rounded MT Bold'), url(ARLRDBD.TTF) format(TrueType);
+}
+/* font-family declaration End */
 
-div.Introduction{
+/* Navigation Bar */
+
+nav.nav-navbar{
+    background-color: indianred;
     width: 100%;
     height: 800px;
 }
 
 div.Introduction-Text{
-    color: white;
+    font-family: 'Georgia', serif;
     font-size: 25px;
+    text-align: center;
+    color: rgb(55, 5, 75);
+}
+/* Navigation Bar End */
+
+/* Main Topic */
+
+/* Section 1 */
+section.Section-1{
+    background-color: rgb(97, 160, 34);
+    padding-left: 50px;
 }
 
-div.Section-1{
-    width: 100%;
-    height: 500px;
+div.Section-1-Text{
+    font-size: 20px;
+    font-family: Arial Rounded MT Bold;
+    text-align: left;
+    line-height: 1.5;
 }
+
+/* Section 1 End */
+
+section.Section-2{
+    background-color: rgb(40, 75, 189);
+    padding-left: 50px;
+}
+
+div.Section-2-Text{
+    font-size: 20px;
+    font-family: Arial Rounded MT Bold;
+    text-align: left;
+    line-height: 1.5;
+}
+
+section.Section-3{
+    background-color: coral;
+    padding-left: 50px;
+}
+
+div.Section-3-Text{
+    font-size: 20px;
+    font-family: Arial Rounded MT Bold;
+    text-align: left;
+    line-height: 1.5;
+}
+/* Main Topic End */
+
+/* Footer */
+div.Footer{
+    width: 100%;
+    height: 100px;
+    color: white;
+}
+
+div.Footer p{
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Footer End */
+
+/* Button Style */
+button.button{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-style: none;
+    border-radius: 40px;
+}
+
+button.button:hover{
+    background-color: rgb(75, 75, 75);
+}
+/* Button Style End */

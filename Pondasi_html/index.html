@@ -9,58 +9,105 @@
   <!-- CSS -->
   <link rel="stylesheet" type ="text/css" href="/Style_css/Style for index.css"/>
 
-  <!-- Tailwind -->
-  <link rel="stylesheet" type="text/css" href="/Style_css/output.css">
-
 </head>
 <body>
   <!-- Bagian Navbar -->
   <header>
-    <nav>
+    <nav class="nav-navbar">
+      <!-- <ul class="ul-navbar">
+        <li class="li-navbar">Home</li>
+        <li class="li-navbar">Kritik dan Saran</li>
+        <li class="li-navbar">Aspirasi dan Gagasan</li>
+        <li class="li-navbar">Laporkan Tindak Kejahatan</li>
+      </ul> -->
+      <div class="Introduction">
+        <div class="Introduction-Text">
+          <h1>From Lampung To Lampung</h1>
+          <br>
+          <h4>Forum Layanan Penerimaan Kritik, Saran, Pesan Aspirasi, dan Laporan Masalah dari masyarakat kepada Pemerintah Provinsi Lampung</h4>
+        </div>
+      </div>
     </nav>
   </header>
 
   <!-- Bagian Utama Website -->
   <main>
-    <!-- Introduction -->
-    <div class="Introduction" style="background-color: brown;">
-      <div class="Introduction-Text">
-        <h1>From Peolpe To People</h1> 
-        <h4>Forum Layanan Penerimaan Kritik, Saran, Pesan Aspirasi, dan Laporan Masalah  dari masyarakat untuk Pemerintah Provinsi Lampung</h4>
-      </div>
-    </div>
-    <!-- Intoduction End -->
-
     <!-- Section-1 -->
-    <div class="Section-1" style="background-color: rgb(97, 160, 34);">
-      <h3>Berikan Kritik dan Saran-mu untuk pemerintah</h3>
-      <a href="/Pondasi_html/Kritik.html" target="_blank">
-        <button>Sampaikan Kritik dan Saran</button>
-      </a>
-    </div>
+    <section class="Section-1">
+      <div class="Section-1-Image">
+        <img src="/Foto/images.jpg" alt="" width="500">
+      </div>
+      <div class="Section-1-Text">
+        <h2>Sampaikan Kritik dan Saran Anda</h2>
+        <br>
+        <p>
+          Sebagai negara yang demokratis, sudah sepatutnya rakyat memiliki kebebasan dalam berpendapat dan menyampaikan kritik.
+          Oleh karena itu, penting bagi pemerintah untuk menyediakan platform yang dapat memudahkan masyarakat dalam menyampaikan pendapat.
+        </p>
+        <br>
+        <p>
+          Apabila pada warga masyarakat Lampung memiliki keluh kesah dan ingin menyampaikan kritik nya terhadap kinerja pemerintah Provinsi Lampung,
+          masalah infrastruktur, atau hal-hal lainnya yang berkaitan dengan Provinsi Lampung,
+          Anda dapat mengklik tombol di bawah ini untuk masuk ke dalam form pengisian kritik dan saran.
+        </p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScjgUGvJZd9WcSBndqEDfATJ7JwH5aK3X945URnGTyuGcMsyQ/viewform?usp=sf_link" target="_blank">
+          <button class="button">Kritik dan Saran</button>
+        </a>
+      </div>
+    </section>
       <!-- Section-1 End -->
 
       <!-- Section-2 -->
-    <div class="Section-2">
-      <h3>Sampaikan Aspirasi dan Pesan-pesan untuk pemerintah</h3>
+    <section class="Section-2">
+      <img src="/Foto/download (2).jpg" alt="" width="500">
+      <div class="Section-2-Text">
+        <h1>Bantuan Dana Untuk UMKM</h1>
+        <p>
+          Apabila Anda adalah seorang yang memiliki ide untuk membangun sebuah bisnis atau seorang yang memiliki bisnis UMKM namun tidak memiliki Dana
+          untuk menjalankan kegiatan, Anda bisa mengklik tombol di bawah ini untuk melakukan pengajuan dana ke Pemerintah Provinsi Lampung. Perlu diperhatikan
+          bahwa yang akan menerima dana hanya <b>seorang yang berniat membangun usaha dan seorang yang memiliki bisnis namun terdapat kendala kekurangan dana</b>.
+          Oleh karena itu, penting untuk melampirkan proposal bisnis yang dijalankan sebagai salah satu syarat untuk pencairan dana.
+        </p>
+        <br>
+        <p>
+          Periode Pendaftaran : 13 Mei - 30 Juli 2023
+        </p>
+      </div>
+      <br>
       <a href="">
-        <button>Aspirasi dan Pesan-Pesan</button>
+        <button class="button">Aspirasi dan Gagasan</button>
       </a>
-    </div>
+    </section>
       <!-- Section-2 End -->
 
       <!-- Section-3 -->
-    <div class="Section-3">
-      <h3>Laporkan Masalah Anda!</h3>
-      <h4>Segera Laporkan masalah Anda, Kami selalu siap membantu</h4>
+    <section class="Section-3">
+      <img src="/Foto/download (3).jpg" alt="" width="500">
+      <div class="Section-3-Text">
+        <h1>Laporkan Tindak Kejahatan</h1>
+        <br>
+        <p>
+          Apabila Anda menemukan, menjadi saksi, atau menjadi korban atas tindakan kejahatan seperti perampokan, pelecehan seksual, tindakan KDRT,
+          tindakan korupsi, keributan antar warga, atau tindak kejahatan lainnya, silahkan klik tombol di bawah ini untuk
+          melakukan pengaduan tindak kejahatan. Polisi Daerah Provinsi Lampung selalu siap melayani Anda
+        </p>
+      </div>
+      <br>
       <a href="">
-        <button>Laporkan Masalah</button>
+        <button class="button">Laporkan Masalah</button>
       </a>
-    </div>
+    </section>
     <!-- Section-3 End -->
   </main>
 
   <!-- Bagian Footer -->
-  <footer></footer>
+  <footer>
+    <div class="Footer" style="background-color: black;">
+      <p>Copyright 2023</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="/Interactive_js/Javascript for web.js"></script>
 </body>
 </html>
